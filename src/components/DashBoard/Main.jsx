@@ -7,10 +7,14 @@ import ButtonPanel from "../ButtonPanel/ButtonPanel";
 import History from "../ButtonPanel/History";
 import Logs from "../ButtonPanel/Logs";
 import Profile from "../ButtonPanel/Profile";
-
+//this is the new update file
 const MainContainer = styled.div`
   display: flex;
 `;
+const MainContainers = styled.div`
+  display: flex;
+`;
+
 
 const RightSideContent = styled.div`
   flex: 1;
