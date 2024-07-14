@@ -1,0 +1,4 @@
+selectedregion        = ""
+selectedkeypairoption = ""
+selectedbundleID      = ""
+selectedbluprintID    = ""

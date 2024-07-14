@@ -1,0 +1,205 @@
+.button-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px  ;
+    margin-top: center;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.button_main_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    width: 100px;
+    align-items: center;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .buttondestroy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #550db9;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .buttonLogout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #847697;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttondestroy:hover {
+    background-color: #1559a1;
+  }
+
+  .buttonLogout:hover {
+    background-color: #0056b3;
+  }
+
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+
+.text-xmops {
+    color: rgb(143, 157, 241);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline-xmops {
+    width: 61px;
+    height: 6px;
+    background-color: rgb(143, 157, 241);
+    border-radius: 9px;
+    align-items: center;
+} 
+
+
+
+
+
+
+.button_main_container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%; 
+  margin-top: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.button, .buttondestroy, .buttonLogout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 59px;
+  color: #fff;
+  border-radius: 10px; 
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  border: none; 
+  outline: none; 
+}
+
+.button {
+  background: #4CAF50; /* Green */
+}
+
+.buttondestroy {
+  background: #FF6347; /* Tomato (Red) */
+}
+
+.buttonLogout {
+  background: #4169E1; /* Royal Blue */
+}
+
+.button:hover {
+  background-color: #388E3C; /* Darker shade of Green on hover */
+}
+
+.buttondestroy:hover {
+  background-color: #E53935; /* Darker shade of Red on hover */
+}
+
+.buttonLogout:hover {
+  background-color: #1E90FF; /* Darker shade of Royal Blue on hover */
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  color: #333; /* Dark Gray text color */
+}
+
+.text-xmops {
+  color: #0080B9; 
+  font-size: 36px; /* Adjust font size as per your preference */
+  font-weight: 700;
+}
+
+.underline-xmops {
+  width: 50px; /* Adjust width as per your preference */
+  height: 4px; /* Adjust height as per your preference */
+  background-color: #0080B9; /* Green */
+  border-radius: 6px;
+  width: 300px;
+  margin-top: 10px; /* Adjust margin-top as per your preference */
+}
+
+.custom-dropdown {
+  /* Customize appearance */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  width: 200px; /* Set width as needed */
+  color: #333;
+  cursor: pointer;
+}
+
+.custom-dropdown option {
+  /* Customize option appearance */
+  background-color: #fff;
+  color: #333;
+}
+
+.custom-dropdown option:hover {
+  /* Customize hover effect */
+  background-color: #e0e0e0;
+}
+
+.custom-dropdown option:selected {
+  /* Customize selected option */
+  background-color: #007bff;
+  color: #fff;
+}
