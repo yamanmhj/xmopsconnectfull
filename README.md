@@ -63,14 +63,7 @@ The core aim of this project is to simplify the process of deploying AWS resourc
 
 ### Example User Input
 React’s `useState` hooks are used to capture user preferences. For instance:
-```javascript
-const [selectedOption, setSelectedOption] = useState('');
-const [selectedPortValue, setSelectedPortValue] = useState('');
-const [PopupRegion, popupsetRegion] = useState(''); // AWS Region
-const [PopupOSImage, popupsetOSImage] = useState(''); // OS Image
-const [PopupEC2, popupsetEC2] = useState(''); // EC2 Instance Type
-const [PopupKeyPair, popupsetkeyPair] = useState(''); // Key Pair
-These inputs update Terraform variables such as:
+
 
 selectedregion = "us-east-1"
 selectedec2InstanceType = "t1.micro"
@@ -79,6 +72,8 @@ selectedsshoption = "22"
 selectedkeypairoption = "None"
 selectedphpversion = "8.0"
 selectedstoragesize = "20"
+
+
 Prerequisites
 Frontend
 Node.js and npm installed.
