@@ -93,17 +93,17 @@ Running the Application
 Frontend
 Start the React application:
 
-###deploy react website
+### deploy react website
 npm run
 Backend
 Start the Flask server:
 
-###run flask server
+### run flask server
 python3 backend.py
 Deploy AWS Resources
 Once configurations are updated, execute the Terraform commands:
 
-###Initialize Terraform:
+### Initialize Terraform:
 bash
 Copy code
 terraform init
@@ -115,8 +115,9 @@ Apply the deployment:
 bash
 Copy code
 terraform apply
-###but terraform HCL is initiated automatically when deploy is pressed in ui. server handles and deploy the request
+### but terraform HCL is initiated automatically when deploy is pressed in ui. server handles and deploy the request
 Project Structure
+```javascript
 markdown
 Copy code
 - frontend/                  # React application
@@ -142,6 +143,7 @@ Copy code
 - aws_integration/           # AWS-specific configurations
   - cognito/
   - cloudtrail/
+```
 Work in Progress
 This project is still under development. Future updates will include:
 
