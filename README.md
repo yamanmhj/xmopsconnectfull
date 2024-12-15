@@ -166,18 +166,4 @@ Contributions are welcome! Please submit issues or pull requests to suggest impr
 Author
 This project is a Work in Progress. Feel free to collaborate or reach out for more information!
 
-vbnet
-Copy code
 
-Copy this into your `README.md` file, and you’re good to go! Let me know if there’s anything else you need.
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info.
