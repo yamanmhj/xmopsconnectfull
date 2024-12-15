@@ -63,7 +63,7 @@ The core aim of this project is to simplify the process of deploying AWS resourc
 
 ### Example User Input
 React’s `useState` hooks are used to capture user preferences. For instance:
-'''
+```javascript
 
 selectedregion = "us-east-1"
 selectedec2InstanceType = "t1.micro"
@@ -72,8 +72,6 @@ selectedsshoption = "22"
 selectedkeypairoption = "None"
 selectedphpversion = "8.0"
 selectedstoragesize = "20"
-
-
 Prerequisites
 Frontend
 Node.js and npm installed.
@@ -94,19 +92,17 @@ Running the Application
 Frontend
 Start the React application:
 
-bash
-Copy code
+###deploy react website
 npm run
 Backend
 Start the Flask server:
 
-bash
-Copy code
+###run flask server
 python3 backend.py
 Deploy AWS Resources
 Once configurations are updated, execute the Terraform commands:
 
-Initialize Terraform:
+###Initialize Terraform:
 bash
 Copy code
 terraform init
@@ -118,6 +114,7 @@ Apply the deployment:
 bash
 Copy code
 terraform apply
+###but terraform HCL is initiated automatically when deploy is pressed in ui. server handles and deploy the request
 Project Structure
 markdown
 Copy code
@@ -137,12 +134,10 @@ Copy code
     - services/
       - terraform_manager.py
 - terraform/                 # Terraform configuration files
-  -microservic
-  -monolith
-    - main.tf
-    -terraform.tfvars
-    -variables.tf
-  -lightsail
+  - main.tf
+  - variables.tf
+  - outputs.tf
+  - dynamic.tfvars
 - aws_integration/           # AWS-specific configurations
   - cognito/
   - cloudtrail/
@@ -171,9 +166,15 @@ This project is a Work in Progress. Feel free to collaborate or reach out for mo
 vbnet
 Copy code
 
-Feel free to copy and use it directly for your GitHub repository! Let me know if you need additional edits.
+Copy this into your `README.md` file, and you’re good to go! Let me know if there’s anything else you need.
 
 
 
 
 
+
+
+
+
+
+ChatGPT can make mistakes. Check important info.
