@@ -63,7 +63,7 @@ The core aim of this project is to simplify the process of deploying AWS resourc
 
 ### Example User Input
 React’s `useState` hooks are used to capture user preferences. For instance:
-
+'''
 
 selectedregion = "us-east-1"
 selectedec2InstanceType = "t1.micro"
