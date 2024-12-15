@@ -72,6 +72,7 @@ selectedsshoption = "22"
 selectedkeypairoption = "None"
 selectedphpversion = "8.0"
 selectedstoragesize = "20"
+```
 Prerequisites
 Frontend
 Node.js and npm installed.
